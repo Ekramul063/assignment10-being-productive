@@ -1,0 +1,36 @@
+.course-detail-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.course-img{
+    width: 40%;
+    padding:0 10px;
+}
+.course-img img{
+    width: 100%;
+    object-fit:cover;
+    height: auto;
+}
+.course-content{
+    width: 60%;
+    padding: 0 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .course-content{
+        width: 100%;
+        padding: 0 15px;
+        margin:0 auto;
+        display: block;
+    }
+    .course-img{
+        width: 100%;
+        padding: 0 15px;
+        padding-bottom: 20px;
+        margin:0 auto;
+        display: block;
+    }
+  }
